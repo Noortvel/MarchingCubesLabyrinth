@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e27c52a7a4ea634a913bc6b9bf0410a, type: 3}
+  m_Name: NoiseFractalGenerator
+  m_EditorClassIdentifier: 
+  noiseData:
+    Seed: 1337
+    Frequency: 0.02
+    Scale: {x: 8, y: 8}
+    Bounds:
+      Min: -0.45
+      Max: 0.91
+    Discreting: 0.866
+    IsInvert: 0
+    Offset: {x: 591, y: -320}
+  generatorType: 2
