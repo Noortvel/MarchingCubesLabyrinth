@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+#if UNITY_EDITOR
 namespace MarchingCubes
 {
     [RequireComponent(typeof(MarchingCubesChunk))]
@@ -69,3 +70,4 @@ namespace MarchingCubes
         }
     }
 }
+#endif

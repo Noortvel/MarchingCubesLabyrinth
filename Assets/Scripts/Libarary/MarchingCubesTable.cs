@@ -3,10 +3,6 @@ namespace MarchingCubes
 {
     public static class MarchingCubesTable
     {
-        static MarchingCubesTable()
-        {
-
-        }
         public static IList<int> Edges
         {
             get => edges;

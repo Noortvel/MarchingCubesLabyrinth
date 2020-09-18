@@ -1,6 +1,4 @@
-﻿using System;
-using System.Net.NetworkInformation;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.AI;
 
 namespace MarchingCubes
@@ -74,11 +72,13 @@ namespace MarchingCubes
             MarchingCubesAlgorithm.Generate();
             ApplyMesh();
         }
-        [ExecuteInEditMode]
+#if UNITY_EDITOR
+        //[ExecuteInEditMode]
         public void GenerateFromEditor()
         {
             Initialize();
             Generate();
         }
+#endif
     }
 }
